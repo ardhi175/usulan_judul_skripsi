@@ -1,0 +1,76 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{xltabular}% combination of longtable and tabularx
+\usepackage{lipsum}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+
+
+% Data yang diinput
+\def\sekprodi{Muhammad Ardhi Khalif, M.Sc.}
+\def\NIP{NIP. 198210092011011010}
+\def\mahasiswa{}
+\def\NIM{NIM. }
+\def\tanggal{18 September 2024}
+
+\begin{document}
+\noindent
+\begin{minipage}{0.1\textwidth}
+\centering
+\includegraphics[width=1.5cm]{logo-uin-ws.png}
+\end{minipage}
+\begin{minipage}{0.9\textwidth}
+\begin{center}
+{\large\bf KEMENTERIAN AGAMA REPUBLIK INDONESIA}\\[4pt]
+{\large\bf UNIVERSITAS ISLAM NEGERI WALISONGO}\\[4pt]
+{\large\bf FAKULTAS SAINS DAN TEKNOLOGI}\\
+{\small Jl. Prof. Dr. Hamka (Kampus II) Ngaliyan Semarang Telp. 024-7601295 Fax. 7615387}
+\end{center}
+\end{minipage}
+
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}\\
+\begin{center}
+{\bf USULAN JUDUL SKRIPSI}
+\end{center}
+
+\def\arraystretch{1.5}%
+\noindent
+\begin{tabular}{|m{0.5\textwidth}|m{0.45\textwidth}|}
+\hline
+Nama  & \\
+\hline
+NIM   & \\
+\hline
+Program Studi & Fisika\\
+\hline
+\end{tabular}
+
+\section{Pendahuluan}
+\lipsum[1-4]
+\section{Rumusan Masalah}
+\lipsum[1-4]
+\section{Metode}
+\lipsum[1-4]
+\section{Rencana Judul}
+\lipsum[1-4]
+\section{Referensi Utama}
+\lipsum[1-4]
+
+\vspace{1cm}
+\noindent
+\begin{tabular}{|l|l|}
+\hline
+\multicolumn{1}{|c|}{PERSETUJUAN} & \multicolumn{1}{|c|}{Semarang, \tanggal}\\
+\multicolumn{1}{|l|}{Pembimbing I  :} & \multicolumn{1}{|l|}{}\\
+\multicolumn{1}{|l|}{Pembimbing II :} & \multicolumn{1}{|l|}{}\\
+\multicolumn{1}{|m{0.5\textwidth}|}{\centering Sekretaris Program Studi,} & \multicolumn{1}{|m{0.45\textwidth}|}{\centering Pengusul,}\\[3cm]
+\multicolumn{1}{|c|}{\sekprodi } & \multicolumn{1}{|c|}{\mahasiswa}\\ %
+\multicolumn{1}{|c|}{\NIP }   & \multicolumn{1}{|c|}{\NIM}\\ %
+\hline
+\end{tabular}
+\end{document}
